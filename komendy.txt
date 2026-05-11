@@ -1,0 +1,5 @@
+docker build -t app_w:v1.0. 
+docker run -d -p 8080:8080 --name app_weather app_w:v1.0.
+docker logs app_weather
+docker history app_w:v1.0.
+docker images app_w:v1.0.
